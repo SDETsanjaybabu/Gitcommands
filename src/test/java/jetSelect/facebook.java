@@ -11,6 +11,9 @@ public class facebook {
 
 	public static void main(String[] args) throws Throwable {
 		// TODO Auto-generated method stub
+		
+		
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
